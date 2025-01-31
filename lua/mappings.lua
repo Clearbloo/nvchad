@@ -20,6 +20,7 @@ end, { desc = "Open debugging sidebar" })
 
 map("n", "<leader>fd", "<cmd> Telescope fd <CR>", { desc = "Find files with fd" })
 map("n", "<leader>gg", "<cmd> LazyGit <CR>", { desc = "Open LazyGit" })
+map("n", "<leader>gb", "<cmd> BlameToggle <CR>", { desc = "Show Git blame sidebar" })
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
 map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")

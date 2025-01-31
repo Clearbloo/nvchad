@@ -16,6 +16,16 @@ return {
     build = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release",
   },
   {
+    "FabijanZulj/blame.nvim",
+    lazy = false,
+    config = function()
+      require('blame').setup {}
+    end,
+    opts = {
+      blame_options = { '-w' },
+    },
+  },
+  {
     "lukas-reineke/indent-blankline.nvim",
     main = "ibl",
     commit = "29be0919b91fb59eca9e90690d76014233392bef",

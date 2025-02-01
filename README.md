@@ -7,3 +7,6 @@
 # Credits
 
 1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+
+# TODO
+- [ ] Add python notebook support. Look at https://github.com/luk400/vim-jukit
